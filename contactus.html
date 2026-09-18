@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body class="contact-page-body">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+
+     
+      <a href="#" class="navbar-brand">
+        <img src="images/logo.png" alt="Ground up" width="120">
+      </a>
+
+      
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+
+       <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarMenu">
+
+         <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="index.html">Home</a>
+          </li>
+
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle text-dark"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="about-robbie.html">About Robbie</a>
+                            </li>
+                        </ul>
+                    </li>
+
+          <li class="nav-item dropdown">
+            <a 
+              class="nav-link dropdown-toggle text-dark"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Training
+            </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="training-module1.html">
+                  Module 1 - Bridging the Triad of Therapist, Client and Medicine
+                </a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="module-2.html">
+                  Module 2 - Bridging the Triad of Therapist, Client and Medicine
+                </a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="module-3.html">
+                  Module 3 - Bridging the Triad of Therapist, Client and Medicine
+                </a>
+              </li>
+            </ul>
+          </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark active" href="contactus.html">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+<section class="hero">
+
+    <img src="images/contact-hero.png" alt="Ground up hero image"> 
+</section>
+  <section class="contact-page-section">
+    <div class="floating-arrow" aria-hidden="true"></div>
+
+    <div class="container contact-page-shell">
+      <div class="contact-page-copy">
+        <h2>Contact Information</h2>
+        <p>
+          Contact us or simply fill in the form and we will get back to you as soon as possible.
+        </p>
+
+        <div class="contact-page-details">
+          <div class="detail-item">
+            <img src="images/call-icon.png" alt="Phone" class="detail-icon-img">
+            <span>(123) 456-7890</span>
+          </div>
+
+          <div class="detail-item">
+            <img src="images/email-icon.png" alt="Email" class="detail-icon-img">
+            <span>demo@gmail.com</span>
+          </div>
+
+          <div class="detail-item location-item">
+            <img src="images/location-icon.png" alt="Location" class="detail-icon-img">
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-page-form-wrap">
+        <form class="contact-page-form">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="first-name">First Name*</label>
+              <input id="first-name" name="first-name" type="text" required>
+            </div>
+
+            <div class="form-field">
+              <label for="surname">Surname*</label>
+              <input id="surname" name="surname" type="text" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">E-mail*</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+
+            <div class="form-field">
+              <label for="phone">Phone*</label>
+              <input id="phone" name="phone" type="tel">
+            </div>
+          </div>
+
+          <div class="form-field message-field">
+            <label for="message">Message*</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="contact-submit-btn">
+            Submit
+            <span>›</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-map-section" aria-label="Map location">
+    <div class="container map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927767.3399049372!2d46.193023081815056!3d24.72375005942204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1789626552805!5m2!1sen!2sin"
+        class="map-frame"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+</body>
+
+<footer class="footer">
+
+    <div class="container">
+
+        
+        <div class="footer-logo">
+            <img src="images/footerlogo.png" alt="Ground Up">
+        </div>
+
+
+        
+        <nav class="footer-nav">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="#">Trainings</a>
+            <a href="#">Contact Us</a>
+
+        </nav>
+
+
+        
+        <div class="social-icons">
+
+            <a href="#" aria-label="Facebook">
+                <img src="/images/fblogo.png">
+            </a>
+
+            <a href="#" aria-label="Twitter">
+                <img src="/images/twitterlogo.png">
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <img src="/images/instalogo.png">
+            </a>
+
+            <a href="#" aria-label="LinkedIn">
+               <img src="/images/youtube logo.png">
+            </a>
+
+        </div>
+
+
+        
+        <div class="footer-line"></div>
+
+
+     
+        <p class="copyright">
+            ©2023 Ground up Psychedelic Institute. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+</html>
