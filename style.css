@@ -105,6 +105,12 @@ body {
     font-family: gilory-medium;
     
 }
+#main-text{
+    color:#F67C01;
+    font-family: gilory-medium;
+    
+}
+
 
 .hero-text p {
     font-size: 14px;
@@ -120,6 +126,25 @@ body {
     border-radius: 25px;
     padding: 10px 20px;
     cursor: pointer;
+}
+.read-more1{
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 14px;
+    height: 14px;
+
+    margin-left: 5px;
+
+    border: 1px solid #F1F601;
+    border-radius: 50%;
+
+    color: #F1F601;
+
+    font-size: 13px;
+    line-height: 1;
 }
 
 .features-section {
@@ -787,6 +812,7 @@ body {
     background: #05ad3d;
     padding: 48px 0 32px;
     color: #ffffff;
+    margin-top: 60px;
 }
 
 
